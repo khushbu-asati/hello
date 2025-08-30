@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Website Preview</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <style>
+        body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; }
+        .full-preview-container > div:not(:last-child) { margin-bottom: 0rem; }
+      </style>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+  <div class="full-preview-container">
+    <div class="min-h-screen bg-cover bg-center bg-no-repeat" style="background-image: url('https://images.unsplash.com/photo-1578632767115-351597cf2477?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80');" data-element-id="el-1">
+    <div class="container mx-auto px-4 py-8" data-element-id="el-2">
+        <div class="max-w-md mx-auto bg-white/10 backdrop-blur-lg rounded-xl shadow-2xl p-8" data-element-id="el-3">
+            <div class="text-center mb-8" data-element-id="el-4">
+                <h1 class="text-3xl font-bold text-white mb-2" data-element-id="el-5">AnimeStream</h1>
+                <p class="text-gray-300" data-element-id="el-6">Your Gateway to Endless Anime Adventures</p>
+            </div>
+            
+            <form class="space-y-6" data-element-id="el-7">
+                <div data-element-id="el-8">
+                    <label class="block text-gray-300 mb-2" for="fullname" data-element-id="el-9">
+                        <i class="fas fa-user mr-2" data-element-id="el-10"></i>Full Name
+                    </label>
+                    <input type="text" id="fullname" class="w-full px-4 py-3 rounded-lg bg-white/20 border border-gray-400 focus:border-gray-500 focus:ring-2 focus:ring-gray-500 text-white placeholder-gray-300" placeholder="Enter your full name" required="" data-element-id="el-11">
+                </div>
+
+                <div data-element-id="el-12">
+                    <label class="block text-gray-300 mb-2" for="email" data-element-id="el-13">
+                        <i class="fas fa-envelope mr-2" data-element-id="el-14"></i>Email Address
+                    </label>
+                    <input type="email" id="email" class="w-full px-4 py-3 rounded-lg bg-white/20 border border-gray-400 focus:border-gray-500 focus:ring-2 focus:ring-gray-500 text-white placeholder-gray-300" placeholder="Enter your email" required="" data-element-id="el-15">
+                </div>
+
+                <div class="relative" data-element-id="el-16">
+                    <label class="block text-gray-300 mb-2" for="password" data-element-id="el-17">
+                        <i class="fas fa-lock mr-2" data-element-id="el-18"></i>Password
+                    </label>
+                    <input type="password" id="password" class="w-full px-4 py-3 rounded-lg bg-white/20 border border-gray-400 focus:border-gray-500 focus:ring-2 focus:ring-gray-500 text-white placeholder-gray-300" placeholder="Create a password" required="" data-element-id="el-19">
+                    <button type="button" class="absolute right-3 top-10 text-gray-300" onclick="togglePassword('password')" data-element-id="el-20">
+                        <i class="fas fa-eye" data-element-id="el-21"></i>
+                    </button>
+                </div>
+
+                <div class="relative" data-element-id="el-22">
+                    <label class="block text-gray-300 mb-2" for="confirm-password" data-element-id="el-23">
+                        <i class="fas fa-lock mr-2" data-element-id="el-24"></i>Confirm Password
+                    </label>
+                    <input type="password" id="confirm-password" class="w-full px-4 py-3 rounded-lg bg-white/20 border border-gray-400 focus:border-gray-500 focus:ring-2 focus:ring-gray-500 text-white placeholder-gray-300" placeholder="Confirm your password" required="" data-element-id="el-25">
+                    <button type="button" class="absolute right-3 top-10 text-gray-300" onclick="togglePassword('confirm-password')" data-element-id="el-26">
+                        <i class="fas fa-eye" data-element-id="el-27"></i>
+                    </button>
+                </div>
+
+                <div class="flex items-center" data-element-id="el-28">
+                    <input type="checkbox" id="terms" class="rounded bg-white/20 border-gray-400 text-gray-600 focus:ring-gray-500" required="" data-element-id="el-29">
+                    <label for="terms" class="ml-2 text-sm text-gray-300" data-element-id="el-30">
+                        I agree to the <a href="#" class="text-gray-400 hover:text-gray-300 underline" data-element-id="el-31">Terms and Conditions</a> and <a href="#" class="text-gray-400 hover:text-gray-300 underline" data-element-id="el-32">Privacy Policy</a>
+                    </label>
+                </div>
+
+                <button type="submit" class="w-full bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300 transform hover:scale-105" data-element-id="el-33">
+                    Sign Up
+                </button>
+
+                <p class="text-center text-gray-300" data-element-id="el-34">
+                    Already have an account? 
+                    <a href="#" class="text-gray-400 hover:text-gray-300 underline" data-element-id="el-35">Log in</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" data-element-id="el-36">
+</div>
+  </div>
+</body>
+</html>
